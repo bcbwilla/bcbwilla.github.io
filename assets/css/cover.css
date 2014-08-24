@@ -161,3 +161,15 @@ body {
     width: 700px;
   }
 }
+
+/*
+* Tooltip
+*/
+.tooltip-inner {
+background-color: #FF0000;
+}
+
+.tooltip.right .tooltip-arrow {
+border-right: 5px solid #FF0000;
+
+}
