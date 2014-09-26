@@ -168,7 +168,7 @@ body {
     height:auto;
 }
 
-.portrait:hover, .portrait:active {
+.portrait:hover {
     transform:scale(8,8) translateX(15%) translateY(3%);
     transition: transform 7s ease-in-out;
 }
