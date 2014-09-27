@@ -36,13 +36,13 @@
         <div class="cover-container">
           <div class="inner cover">
             <p class="lead">
-             <img class="portrait" src="static/img/bcb.png">
+             <img id="portrait" src="static/img/bcb.png">
             </p>
           </div>
 
           <div class="mastfoot">
             <div class="inner">
-              <p>Image by <a href="http://tiggy.li">TiggyLi</a></p>
+              <p id="att" >Image by <a href="http://tiggy.li">TiggyLi</a></p>
             </div>
           </div>
 
@@ -56,5 +56,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/docs.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+        $('#portrait')
+        .css({"transform": "scale(8,8) translateX(15%) translateY(3%) rotate(3.5deg)", "transition": "transform 20s ease-in-out"});
+
+        $('#att').fadeOut(3000);
+        });
+    </script>
   </body>
 </html>

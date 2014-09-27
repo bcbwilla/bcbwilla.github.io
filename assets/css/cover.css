@@ -163,12 +163,7 @@ body {
 }
 
 /* super rad custom css */
-.portrait {
+#portrait {
     width:40%;
     height:auto;
-}
-
-.portrait:hover {
-    transform:scale(8,8) translateX(15%) translateY(3%);
-    transition: transform 7s ease-in-out;
 }
